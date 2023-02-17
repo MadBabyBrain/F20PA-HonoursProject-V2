@@ -1,0 +1,153 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: ask_question
+  examples: |
+    - what is [classes](question)?
+    - what are [classes](question)?
+    - what does [classes](question) mean?
+    - what is [fields](question)?
+    - what is [constructor](question)?
+    - what is [methods](question)?
+    - what is [private](question)?
+    - what is [public](question)?
+    - what is [protected](question)?
+    - what is [string](question)?
+    - what is [int](question)?
+    - what is [integer](question)?
+    - what is [bool](question)?
+    - what is [char](question)?
+    - what is [character](question)?
+    - what is [variable](question)?
+    - what is [object](question)?
+    - what is [actual](question)?
+    - what is [parameter](question)?
+    - what is [actual](question)?
+    - what is [formal](question)?
+    - what is [declaration](question)?
+    - what is [declare](question)?
+    - what is [instantiation](question)?
+    - what is [instantiate](question)?
+    - what is [local](question)?
+    - what is [global](question)?
+    - what is [accessor](question)?
+    - what is [mutator](question)?
+    - what is [array](question)?
+    - what is [arraylist](question)?
+    - what is [hashmap](question)?
+    - what is [hashset](question)?
+    - what is [key](question)?
+    - what is [dictionary](question)?
+    - what is [linkedlist](question)?
+    - what is [polymorphism](question)?
+    - what is [abstract](question)?
+    - what is [classes](question)?
+    - what is [inheritance](question)?
+    - what is [coupling](question)?
+    - what is [cohesion](question)?
+    - what is [enum](question)?
+    - what is [annotation](question)?
+    - what is [subtyping](question)?
+    - what is [substitution](question)?
+    - what is [superclass](question)?
+    - what is [subclass](question)?
+    - what is [casting](question)?
+    - what is [upcasting](question)?
+    - what is [downcasting](question)?
+    - what is [this](question)?
+    - what is [overriding](question)?
+    - what is [iterator](question)?
+    - what is [iterating](question)?
+    - what is [overloading](question)?
+    - what is [static](question)?
+    - what is [final](question)?
+    

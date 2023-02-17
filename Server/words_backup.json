@@ -1,0 +1,3232 @@
+{
+    "classes": {
+        "occurances": 14,
+        "sentences": [
+            {
+                "probability": 0.07142857142857142,
+                "text": "let's start off with the libraries actually, because java provides thousands and thousands of classes that are ready to use for all kinds of different purposes, and we will have a look at a fraction of the most used ones in this course"
+            },
+            {
+                "probability": 0.07142857142857142,
+                "text": "and inside these classes are tens of thousands of methods, like in total, not in every class obviously"
+            },
+            {
+                "probability": 0.07142857142857142,
+                "text": "and amongst these are many useful classes that make your life easier"
+            },
+            {
+                "probability": 0.07142857142857142,
+                "text": "and all of these are, are classes i just saw for the first time that one of them is called dnd , i don't think there is anything to do with dungeons and dragons, even though if that [were true, that] would be awesome"
+            },
+            {
+                "probability": 0.07142857142857142,
+                "text": "and there, you can see all the packages here and if you click on a package you get all the classes in that package and if you click on a class you can get the you can get the specifications here with this is actually the package as well, but if you click on the class you get all the methods of the class and so forth, and you get a good amount of documentation that describes each method of the class"
+            },
+            {
+                "probability": 0.07142857142857142,
+                "text": "so it's a lot of reading, but once you know all your classes, it actually saves a lot of time"
+            },
+            {
+                "probability": 0.07142857142857142,
+                "text": "as i said, all these classes are organised into packages, so you need to know which package to import, and you do that by using the import statement, and you have to import everything except classes in the 'java.lang' package, such as string "
+            },
+            {
+                "probability": 0.07142857142857142,
+                "text": "once you import them, you can then use those classes and methods like [the same way as] classes from your current project, right"
+            },
+            {
+                "probability": 0.07142857142857142,
+                "text": "and you can do this by either importing a single class like arraylist from 'java.util', or you can import whole packages, meaning you can use all the classes within just using the asterisk (*) here"
+            },
+            {
+                "probability": 0.07142857142857142,
+                "text": "there's several list classes, for example in several different packages, and it's hard to find out which one you mean if you don't import it like this, but you use this"
+            },
+            {
+                "probability": 0.07142857142857142,
+                "text": "so we need to document our classes so that the interface can be read on its own, because the interface is all people get right, the interface being the 'add(...) method and the 'get(...)' method, and the 'put(...)' method and so forth"
+            },
+            {
+                "probability": 0.07142857142857142,
+                "text": "but so much for collections, and next week we will actually jump into classes and and all the fun object oriented stuff"
+            }
+        ]
+    },
+    "elements": {
+        "occurances": 12,
+        "sentences": [
+            {
+                "probability": 0.08333333333333333,
+                "text": "you can put less but then you will still have you would still have empty elements in there to sum up to 24 and you can't put more than 24 elements in there"
+            },
+            {
+                "probability": 0.08333333333333333,
+                "text": "so we have our musicorganizer here and our variable called files which is of type 'arraylist string ' and in 'arraylist string ' we can now add elements"
+            },
+            {
+                "probability": 0.08333333333333333,
+                "text": "you see two elements have been added"
+            },
+            {
+                "probability": 0.08333333333333333,
+                "text": "like you don't need to know how many elements you will have in your arraylist before at the creation of the arraylist, right, before the program starts"
+            },
+            {
+                "probability": 0.08333333333333333,
+                "text": "remember, if you have a list or an array, it will the size or length will be 5 for example, but the indexing starts at 0, so you can only access the elements 0, 1, 2, 3, and 4; if you start to access an element 5, it doesn't exist, because then the list of the length, the length of the list would be 6"
+            },
+            {
+                "probability": 0.08333333333333333,
+                "text": "now, if we print this using a for loop like, this is a for each loop by the way, \"for each string called element\" or \"for each string\" i would name element in my set i do something with the elements such as printing it"
+            },
+            {
+                "probability": 0.08333333333333333,
+                "text": "so if you want to have if you have a list and you want to create a list of unique elements of that list, you just turn it into a set and it will remove all the all the elements that are duplicated"
+            },
+            {
+                "probability": 0.08333333333333333,
+                "text": "if you have a look [at] this, it works the same way, but then it's saved differently, like i said, unordered and only unique elements"
+            },
+            {
+                "probability": 0.08333333333333333,
+                "text": "they all have the same methods they all inherit from a common ancestor, so they all provide the same methods, they just store the elements differently for storage optimisation or retrieval optimisation, but you don't care when you use it"
+            },
+            {
+                "probability": 0.08333333333333333,
+                "text": "so you have to comment those and internally it does all kinds of black magic to actually store the elements"
+            }
+        ]
+    },
+    "method": {
+        "occurances": 12,
+        "sentences": [
+            {
+                "probability": 0.08333333333333333,
+                "text": "it's important to note that there are no brackets [at] the end, because this is just a field of the array, or property of the array, that you are accessing there, it's not a method"
+            },
+            {
+                "probability": 0.08333333333333333,
+                "text": "this is different to an array because in an array you use '.length', i said that a few minutes ago, without brackets that here you used '.size()' with the brackets, so you just have to remember that size here is a method, and not just a property or field of the of the arraylist"
+            },
+            {
+                "probability": 0.08333333333333333,
+                "text": "so what we do is we write a method that returns an integer"
+            },
+            {
+                "probability": 0.08333333333333333,
+                "text": "and there, you can see all the packages here and if you click on a package you get all the classes in that package and if you click on a class you can get the you can get the specifications here with this is actually the package as well, but if you click on the class you get all the methods of the class and so forth, and you get a good amount of documentation that describes each method of the class"
+            },
+            {
+                "probability": 0.08333333333333333,
+                "text": "now, you can put things into your dictionary your map by using the 'put(...)' method"
+            },
+            {
+                "probability": 0.08333333333333333,
+                "text": "it's not the add method like it was for lists, but 'put(\u2026)'"
+            },
+            {
+                "probability": 0.08333333333333333,
+                "text": "the first argument is the key and the second argument is the value and you do this for everything and then if you want to get something out you can just use the 'get(...)' method with the key like 'lisa jones', and this returns then a string which is the phone number and then you can print the phone number and it will give you lisa jones' phone number"
+            },
+            {
+                "probability": 0.08333333333333333,
+                "text": "you just use, you just use the 'add(...)' method, and the 'get(...)' method, and the 'size()' method and they do the same for all of these lists because they all are lists"
+            },
+            {
+                "probability": 0.08333333333333333,
+                "text": "so we need to document our classes so that the interface can be read on its own, because the interface is all people get right, the interface being the 'add(...) method and the 'get(...)' method, and the 'put(...)' method and so forth"
+            }
+        ]
+    },
+    "string": {
+        "occurances": 11,
+        "sentences": [
+            {
+                "probability": 0.09090909090909091,
+                "text": "an arraylist should hold something of type string , which is what we put between these pointy brackets and the name of our arraylist is files "
+            },
+            {
+                "probability": 0.09090909090909091,
+                "text": "but if you would put anything else but string in here it would break anyway"
+            },
+            {
+                "probability": 0.09090909090909091,
+                "text": "one string is 'morningblues.mp3' and the other one is 'dontgo.mp3'"
+            },
+            {
+                "probability": 0.09090909090909091,
+                "text": "so basically files points to an arraylist, and every element in the arraylist points to to a different string"
+            },
+            {
+                "probability": 0.09090909090909091,
+                "text": "as i said, all these classes are organised into packages, so you need to know which package to import, and you do that by using the import statement, and you have to import everything except classes in the 'java.lang' package, such as string "
+            },
+            {
+                "probability": 0.09090909090909091,
+                "text": "if ever your eclipse compares about not knowing string and not knowing 'java.lang', that might mean that something is wrong with your build path; and then i would suggest that you are using an older version of java then the one this project was created with"
+            },
+            {
+                "probability": 0.09090909090909091,
+                "text": "so the name should be a string and the phone number should be a string because it might contain like brackets or pluses and so forth; and then the name, and then you initialise it like this"
+            },
+            {
+                "probability": 0.09090909090909091,
+                "text": "the first argument is the key and the second argument is the value and you do this for everything and then if you want to get something out you can just use the 'get(...)' method with the key like 'lisa jones', and this returns then a string which is the phone number and then you can print the phone number and it will give you lisa jones' phone number"
+            },
+            {
+                "probability": 0.09090909090909091,
+                "text": "now, if we print this using a for loop like, this is a for each loop by the way, \"for each string called element\" or \"for each string\" i would name element in my set i do something with the elements such as printing it"
+            }
+        ]
+    },
+    "right": {
+        "occurances": 10,
+        "sentences": [
+            {
+                "probability": 0.1,
+                "text": "this is the so called diamond notation, because these pointy brackets look a bit like a diamond when they're empty, because you declare the [data] type of every entry in files here, the [data] type here has to be the same, right"
+            },
+            {
+                "probability": 0.1,
+                "text": "and we do this in a accessor method where which we call get number of files, which basically just hides this, right"
+            },
+            {
+                "probability": 0.1,
+                "text": "i hope it makes a little sense now as well to just hide this from the user because the user don't care if it's an arraylist or an array, they just want an integer they don't want to call any methods to get that integer, if you call 'getnumberoffiles()', you want the number of files, you don't want the whole list, right"
+            },
+            {
+                "probability": 0.1,
+                "text": "like you don't need to know how many elements you will have in your arraylist before at the creation of the arraylist, right, before the program starts"
+            },
+            {
+                "probability": 0.1,
+                "text": "once you import them, you can then use those classes and methods like [the same way as] classes from your current project, right"
+            },
+            {
+                "probability": 0.1,
+                "text": "you might think \"why don't i always do this and then i can just use all of them?\" it's because, if you use the single class import in makes it a bit more readable, right"
+            },
+            {
+                "probability": 0.1,
+                "text": "so this is why 'nextint(\u2026)' with with this bound parameter is exclusive of this parameter just to be used like this, right"
+            },
+            {
+                "probability": 0.1,
+                "text": "so if you compare, or if you look at lists, maps and sets together, they are alternative ways to group objects, right"
+            },
+            {
+                "probability": 0.1,
+                "text": "but you don't need to know about how it's stored, right"
+            },
+            {
+                "probability": 0.1,
+                "text": "so we need to document our classes so that the interface can be read on its own, because the interface is all people get right, the interface being the 'add(...) method and the 'get(...)' method, and the 'put(...)' method and so forth"
+            }
+        ]
+    },
+    "arraylist": {
+        "occurances": 10,
+        "sentences": [
+            {
+                "probability": 0.1,
+                "text": "an arraylist should hold something of type string , which is what we put between these pointy brackets and the name of our arraylist is files "
+            },
+            {
+                "probability": 0.1,
+                "text": "so you have to import this in here and then you can use this if in eclipse for example, you just start declaring a variable of type arraylist, it will give you an error that it doesn't know what it is"
+            },
+            {
+                "probability": 0.1,
+                "text": "so basically files points to an arraylist, and every element in the arraylist points to to a different string"
+            },
+            {
+                "probability": 0.1,
+                "text": "this is different to an array because in an array you use '.length', i said that a few minutes ago, without brackets that here you used '.size()' with the brackets, so you just have to remember that size here is a method, and not just a property or field of the of the arraylist"
+            },
+            {
+                "probability": 0.1,
+                "text": "you have to know that's an arraylist and not an array, so you have to do '.size()' not '.length' and so forth, and we just want an integer"
+            },
+            {
+                "probability": 0.1,
+                "text": "i hope it makes a little sense now as well to just hide this from the user because the user don't care if it's an arraylist or an array, they just want an integer they don't want to call any methods to get that integer, if you call 'getnumberoffiles()', you want the number of files, you don't want the whole list, right"
+            },
+            {
+                "probability": 0.1,
+                "text": "like you don't need to know how many elements you will have in your arraylist before at the creation of the arraylist, right, before the program starts"
+            },
+            {
+                "probability": 0.1,
+                "text": "and you can do this by either importing a single class like arraylist from 'java.util', or you can import whole packages, meaning you can use all the classes within just using the asterisk (*) here"
+            }
+        ]
+    },
+    "integer": {
+        "occurances": 10,
+        "sentences": [
+            {
+                "probability": 0.1,
+                "text": "so you declare, like, an 'hours count' up here, you initialise the 'hours count' down here as a new array of integers with the size of 24, and then you can use it like this by just giving it an index, for example in a loop, setting it to an integer value and printing it like this as well"
+            },
+            {
+                "probability": 0.1,
+                "text": "you have to know that's an arraylist and not an array, so you have to do '.size()' not '.length' and so forth, and we just want an integer"
+            },
+            {
+                "probability": 0.1,
+                "text": "so what we do is we write a method that returns an integer"
+            },
+            {
+                "probability": 0.1,
+                "text": "and it's called 'getnumberoffiles()' with a speaking name, and then we just call 'files.size()' internally and return the integer which is called delegation as i wrote here"
+            },
+            {
+                "probability": 0.1,
+                "text": "i hope it makes a little sense now as well to just hide this from the user because the user don't care if it's an arraylist or an array, they just want an integer they don't want to call any methods to get that integer, if you call 'getnumberoffiles()', you want the number of files, you don't want the whole list, right"
+            },
+            {
+                "probability": 0.1,
+                "text": "and if we use 'nextint()' it will give us any integer any positive integer"
+            },
+            {
+                "probability": 0.1,
+                "text": "but then we can also use 'nextint(...)' with an integer inside here and that is a bound int"
+            },
+            {
+                "probability": 0.1,
+                "text": "like a new random generator, and then you can either do 'nextint()', save it in an integer, or if you have this: 'rand.nextint(100)', you know it generates anything between 0 and 99, but you do 1 plus so it generates anything between 1 and 100"
+            }
+        ]
+    },
+    "array": {
+        "occurances": 10,
+        "sentences": [
+            {
+                "probability": 0.1,
+                "text": "with the brackets, then you can also do a semicolon, and do the assignment afterwards, or you also give them, like, a fixed number of assignment, and you can get the length of this array by using 'numbers.length'"
+            },
+            {
+                "probability": 0.1,
+                "text": "it's important to note that there are no brackets [at] the end, because this is just a field of the array, or property of the array, that you are accessing there, it's not a method"
+            },
+            {
+                "probability": 0.1,
+                "text": "this is different to an array because in an array you use '.length', i said that a few minutes ago, without brackets that here you used '.size()' with the brackets, so you just have to remember that size here is a method, and not just a property or field of the of the arraylist"
+            },
+            {
+                "probability": 0.1,
+                "text": "you have to know that's an arraylist and not an array, so you have to do '.size()' not '.length' and so forth, and we just want an integer"
+            },
+            {
+                "probability": 0.1,
+                "text": "i hope it makes a little sense now as well to just hide this from the user because the user don't care if it's an arraylist or an array, they just want an integer they don't want to call any methods to get that integer, if you call 'getnumberoffiles()', you want the number of files, you don't want the whole list, right"
+            },
+            {
+                "probability": 0.1,
+                "text": "remember, if you have a list or an array, it will the size or length will be 5 for example, but the indexing starts at 0, so you can only access the elements 0, 1, 2, 3, and 4; if you start to access an element 5, it doesn't exist, because then the list of the length, the length of the list would be 6"
+            },
+            {
+                "probability": 0.1,
+                "text": "and the first word is just how it is stored internally, like if it's hashed or if it's linked, or if it's an array and so forth"
+            },
+            {
+                "probability": 0.1,
+                "text": "if it's a hash or a tree, or linked or an array, do you care"
+            }
+        ]
+    },
+    "files": {
+        "occurances": 9,
+        "sentences": [
+            {
+                "probability": 0.1111111111111111,
+                "text": "an arraylist should hold something of type string , which is what we put between these pointy brackets and the name of our arraylist is files "
+            },
+            {
+                "probability": 0.1111111111111111,
+                "text": "so here we declare our field and then in the constructor, down here we initialise, or instantiate our our files variable by calling 'new arraylist...' and again with the type ' string '"
+            },
+            {
+                "probability": 0.1111111111111111,
+                "text": "this is the so called diamond notation, because these pointy brackets look a bit like a diamond when they're empty, because you declare the [data] type of every entry in files here, the [data] type here has to be the same, right"
+            },
+            {
+                "probability": 0.1111111111111111,
+                "text": "so we have our musicorganizer here and our variable called files which is of type 'arraylist string ' and in 'arraylist string ' we can now add elements"
+            },
+            {
+                "probability": 0.1111111111111111,
+                "text": "so basically files points to an arraylist, and every element in the arraylist points to to a different string"
+            },
+            {
+                "probability": 0.1111111111111111,
+                "text": "so remember from the last video and mutator method has a parameter and this parameter is then used to change a variable inside our class here, files is changed by adding something"
+            },
+            {
+                "probability": 0.1111111111111111,
+                "text": "and we do this in a accessor method where which we call get number of files, which basically just hides this, right"
+            },
+            {
+                "probability": 0.1111111111111111,
+                "text": "i hope it makes a little sense now as well to just hide this from the user because the user don't care if it's an arraylist or an array, they just want an integer they don't want to call any methods to get that integer, if you call 'getnumberoffiles()', you want the number of files, you don't want the whole list, right"
+            },
+            {
+                "probability": 0.1111111111111111,
+                "text": "so, comparing this to an arraylist again, it's initialised like this and then you add files like this"
+            }
+        ]
+    },
+    "maps": {
+        "occurances": 8,
+        "sentences": [
+            {
+                "probability": 0.125,
+                "text": "let's talk a bit about maps and sets, especially hashmaps and hashsets in here"
+            },
+            {
+                "probability": 0.125,
+                "text": "maps are collections that contain pairs of values"
+            },
+            {
+                "probability": 0.125,
+                "text": "so now, the one thing about maps is that in maps, keys have to be unique"
+            },
+            {
+                "probability": 0.125,
+                "text": "so maps circumvent this by not allowing you to have two"
+            },
+            {
+                "probability": 0.125,
+                "text": "so you have to keep this in mind for hashmaps, or maps in general"
+            },
+            {
+                "probability": 0.125,
+                "text": "so if you compare, or if you look at lists, maps and sets together, they are alternative ways to group objects, right"
+            },
+            {
+                "probability": 0.125,
+                "text": "as i said, sets hold sets do not hold duplicates, and maps always need a [unique] key and value pair"
+            }
+        ]
+    },
+    "random": {
+        "occurances": 8,
+        "sentences": [
+            {
+                "probability": 0.125,
+                "text": "a few of these pre made objects, or collections, and the first of them is random , to generate random numbers"
+            },
+            {
+                "probability": 0.125,
+                "text": "so if we look at the documentation of random , you can see it has a lot of methods that start with 'next...'"
+            },
+            {
+                "probability": 0.125,
+                "text": "so if you look at creating a new random generator like we do here called rand "
+            },
+            {
+                "probability": 0.125,
+                "text": "and then we initialize it as 'new random()'"
+            },
+            {
+                "probability": 0.125,
+                "text": "like a new random generator, and then you can either do 'nextint()', save it in an integer, or if you have this: 'rand.nextint(100)', you know it generates anything between 0 and 99, but you do 1 plus so it generates anything between 1 and 100"
+            },
+            {
+                "probability": 0.125,
+                "text": "and then you can use this index to access a random element in your list"
+            },
+            {
+                "probability": 0.125,
+                "text": "that's about as much about random as you need to know"
+            }
+        ]
+    },
+    "collections": {
+        "occurances": 8,
+        "sentences": [
+            {
+                "probability": 0.125,
+                "text": "in this video we're going to talk about collections; you should have had a bit about collections in sd1 already, but today we're going to talk about them more because we will use them a lot in this course"
+            },
+            {
+                "probability": 0.125,
+                "text": "so let's talk a bit more about collections"
+            },
+            {
+                "probability": 0.125,
+                "text": "like other types of collections and a few practical examples, and a bit about the java libraries as well that they're in"
+            },
+            {
+                "probability": 0.125,
+                "text": "a few of these pre made objects, or collections, and the first of them is random , to generate random numbers"
+            },
+            {
+                "probability": 0.125,
+                "text": "so let's talk a bit more about different types of collections"
+            },
+            {
+                "probability": 0.125,
+                "text": "maps are collections that contain pairs of values"
+            },
+            {
+                "probability": 0.125,
+                "text": "but so much for collections, and next week we will actually jump into classes and and all the fun object oriented stuff"
+            }
+        ]
+    },
+    "unique": {
+        "occurances": 7,
+        "sentences": [
+            {
+                "probability": 0.14285714285714285,
+                "text": "values can be whatever they like, but the key has to be unique because it's used to identify the value"
+            },
+            {
+                "probability": 0.14285714285714285,
+                "text": "because the thing about sets is, if you think of mathematics, sets are unordered and unique"
+            },
+            {
+                "probability": 0.14285714285714285,
+                "text": "so each element in a set has to be unique, and the order of the element is not guaranteed, so it might also print \"two one\""
+            },
+            {
+                "probability": 0.14285714285714285,
+                "text": "an sets are unique, so we add one here and we add another one here"
+            },
+            {
+                "probability": 0.14285714285714285,
+                "text": "so if you want to have if you have a list and you want to create a list of unique elements of that list, you just turn it into a set and it will remove all the all the elements that are duplicated"
+            },
+            {
+                "probability": 0.14285714285714285,
+                "text": "if you have a look [at] this, it works the same way, but then it's saved differently, like i said, unordered and only unique elements"
+            },
+            {
+                "probability": 0.14285714285714285,
+                "text": "as i said, sets hold sets do not hold duplicates, and maps always need a [unique] key and value pair"
+            }
+        ]
+    },
+    "methods": {
+        "occurances": 7,
+        "sentences": [
+            {
+                "probability": 0.14285714285714285,
+                "text": "i hope it makes a little sense now as well to just hide this from the user because the user don't care if it's an arraylist or an array, they just want an integer they don't want to call any methods to get that integer, if you call 'getnumberoffiles()', you want the number of files, you don't want the whole list, right"
+            },
+            {
+                "probability": 0.14285714285714285,
+                "text": "and inside these classes are tens of thousands of methods, like in total, not in every class obviously"
+            },
+            {
+                "probability": 0.14285714285714285,
+                "text": "and there, you can see all the packages here and if you click on a package you get all the classes in that package and if you click on a class you can get the you can get the specifications here with this is actually the package as well, but if you click on the class you get all the methods of the class and so forth, and you get a good amount of documentation that describes each method of the class"
+            },
+            {
+                "probability": 0.14285714285714285,
+                "text": "once you import them, you can then use those classes and methods like [the same way as] classes from your current project, right"
+            },
+            {
+                "probability": 0.14285714285714285,
+                "text": "so if we look at the documentation of random , you can see it has a lot of methods that start with 'next...'"
+            },
+            {
+                "probability": 0.14285714285714285,
+                "text": "they all have the same methods they all inherit from a common ancestor, so they all provide the same methods, they just store the elements differently for storage optimisation or retrieval optimisation, but you don't care when you use it"
+            }
+        ]
+    },
+    "element": {
+        "occurances": 7,
+        "sentences": [
+            {
+                "probability": 0.14285714285714285,
+                "text": "so basically files points to an arraylist, and every element in the arraylist points to to a different string"
+            },
+            {
+                "probability": 0.14285714285714285,
+                "text": "remember, if you have a list or an array, it will the size or length will be 5 for example, but the indexing starts at 0, so you can only access the elements 0, 1, 2, 3, and 4; if you start to access an element 5, it doesn't exist, because then the list of the length, the length of the list would be 6"
+            },
+            {
+                "probability": 0.14285714285714285,
+                "text": "and then you can use this index to access a random element in your list"
+            },
+            {
+                "probability": 0.14285714285714285,
+                "text": "now, if we print this using a for loop like, this is a for each loop by the way, \"for each string called element\" or \"for each string\" i would name element in my set i do something with the elements such as printing it"
+            },
+            {
+                "probability": 0.14285714285714285,
+                "text": "so each element in a set has to be unique, and the order of the element is not guaranteed, so it might also print \"two one\""
+            }
+        ]
+    },
+    "import": {
+        "occurances": 7,
+        "sentences": [
+            {
+                "probability": 0.14285714285714285,
+                "text": "so you have to import this in here and then you can use this if in eclipse for example, you just start declaring a variable of type arraylist, it will give you an error that it doesn't know what it is"
+            },
+            {
+                "probability": 0.14285714285714285,
+                "text": "as i said, all these classes are organised into packages, so you need to know which package to import, and you do that by using the import statement, and you have to import everything except classes in the 'java.lang' package, such as string "
+            },
+            {
+                "probability": 0.14285714285714285,
+                "text": "once you import them, you can then use those classes and methods like [the same way as] classes from your current project, right"
+            },
+            {
+                "probability": 0.14285714285714285,
+                "text": "and you can do this by either importing a single class like arraylist from 'java.util', or you can import whole packages, meaning you can use all the classes within just using the asterisk (*) here"
+            },
+            {
+                "probability": 0.14285714285714285,
+                "text": "so if you just import every class separately, then you make it clear which class you use"
+            },
+            {
+                "probability": 0.14285714285714285,
+                "text": "there's several list classes, for example in several different packages, and it's hard to find out which one you mean if you don't import it like this, but you use this"
+            },
+            {
+                "probability": 0.14285714285714285,
+                "text": "you import them using 'java.util.random'"
+            }
+        ]
+    },
+    "class": {
+        "occurances": 7,
+        "sentences": [
+            {
+                "probability": 0.14285714285714285,
+                "text": "if you have an arraylist then the number is undefined and it's just decided at runtime and this is a collection that is predefined for you in the class the java class library"
+            },
+            {
+                "probability": 0.14285714285714285,
+                "text": "so if we want to use this, let's say we have a class called musicorganizer, and in there we use a field called arraylist"
+            },
+            {
+                "probability": 0.14285714285714285,
+                "text": "and you will learn what that means throughout the course of this class"
+            },
+            {
+                "probability": 0.14285714285714285,
+                "text": "and there, you can see all the packages here and if you click on a package you get all the classes in that package and if you click on a class you can get the you can get the specifications here with this is actually the package as well, but if you click on the class you get all the methods of the class and so forth, and you get a good amount of documentation that describes each method of the class"
+            },
+            {
+                "probability": 0.14285714285714285,
+                "text": "it's not actually inserted into the class"
+            }
+        ]
+    },
+    "java": {
+        "occurances": 7,
+        "sentences": [
+            {
+                "probability": 0.14285714285714285,
+                "text": "and have a look at how to *not* write code yourself because, today is all about using things that java provides to make your life easier"
+            },
+            {
+                "probability": 0.14285714285714285,
+                "text": "so you can just omit this and java will figure that out for you"
+            },
+            {
+                "probability": 0.14285714285714285,
+                "text": "let's start off with the libraries actually, because java provides thousands and thousands of classes that are ready to use for all kinds of different purposes, and we will have a look at a fraction of the most used ones in this course"
+            },
+            {
+                "probability": 0.14285714285714285,
+                "text": "if you installed the latest java on your home computer, there will be java 14 or something, but java 8 is the latest version we rely on in this course, because it has all the basic java elements that you need to know in order to know java"
+            },
+            {
+                "probability": 0.14285714285714285,
+                "text": "if ever your eclipse compares about not knowing string and not knowing 'java.lang', that might mean that something is wrong with your build path; and then i would suggest that you are using an older version of java then the one this project was created with"
+            },
+            {
+                "probability": 0.14285714285714285,
+                "text": "if you use this, and then you just use an arbitrary class from if you have this for java for 'java.util.*' and you have 'javax.swing.*' and you have several packages supported, then you're not entirely sure which package are certain class comes from when you use it"
+            },
+            {
+                "probability": 0.14285714285714285,
+                "text": "so just to summarise, java has an extensive class library, and as a good programmer you must be familiar with these libraries like, at least the most common ones"
+            }
+        ]
+    },
+    "sd1": {
+        "occurances": 7,
+        "sentences": [
+            {
+                "probability": 0.14285714285714285,
+                "text": "in this video we're going to talk about collections; you should have had a bit about collections in sd1 already, but today we're going to talk about them more because we will use them a lot in this course"
+            },
+            {
+                "probability": 0.14285714285714285,
+                "text": "in sd1, you had to look at arrays"
+            },
+            {
+                "probability": 0.14285714285714285,
+                "text": "so [these are] arrays, you've used a lot of them in in sd1"
+            },
+            {
+                "probability": 0.14285714285714285,
+                "text": "now if we look at arraylists arraylists you might also have talked about briefly in sd1"
+            },
+            {
+                "probability": 0.14285714285714285,
+                "text": "so, so far on the two things that you should hopefully remember from [sd1], as i said, arraylists, i'm never entirely certain if you do this in sd1 or not, but you should remember arrays from sd one"
+            },
+            {
+                "probability": 0.14285714285714285,
+                "text": "sorry, i said sd2 before, sd1"
+            }
+        ]
+    },
+    "phone number": {
+        "occurances": 6,
+        "sentences": [
+            {
+                "probability": 0.16666666666666666,
+                "text": "you have a name and you want to look up your phone number so the name would be the key and the phone number will be the value"
+            },
+            {
+                "probability": 0.16666666666666666,
+                "text": "so your key would be 'charles nguyen' and then as a value you have the phone number"
+            },
+            {
+                "probability": 0.16666666666666666,
+                "text": "so the name should be a string and the phone number should be a string because it might contain like brackets or pluses and so forth; and then the name, and then you initialise it like this"
+            },
+            {
+                "probability": 0.16666666666666666,
+                "text": "the first argument is the key and the second argument is the value and you do this for everything and then if you want to get something out you can just use the 'get(...)' method with the key like 'lisa jones', and this returns then a string which is the phone number and then you can print the phone number and it will give you lisa jones' phone number"
+            },
+            {
+                "probability": 0.16666666666666666,
+                "text": "lisa jones' is in there, so if you would put 'lisa jones' in here and then you have another, put a 'lisa jones' with a different phone number, it will just overwrite the old entry, so there will only ever be one lisa jones"
+            }
+        ]
+    },
+    "sets": {
+        "occurances": 6,
+        "sentences": [
+            {
+                "probability": 0.16666666666666666,
+                "text": "let's talk a bit about maps and sets, especially hashmaps and hashsets in here"
+            },
+            {
+                "probability": 0.16666666666666666,
+                "text": "looking at sets, on the other hand, again in the 'java.util' package"
+            },
+            {
+                "probability": 0.16666666666666666,
+                "text": "because the thing about sets is, if you think of mathematics, sets are unordered and unique"
+            },
+            {
+                "probability": 0.16666666666666666,
+                "text": "an sets are unique, so we add one here and we add another one here"
+            },
+            {
+                "probability": 0.16666666666666666,
+                "text": "so if you compare, or if you look at lists, maps and sets together, they are alternative ways to group objects, right"
+            }
+        ]
+    },
+    "list": {
+        "occurances": 6,
+        "sentences": [
+            {
+                "probability": 0.16666666666666666,
+                "text": "so you called files.add(...) with a atring and then this is added to the end of the list"
+            },
+            {
+                "probability": 0.16666666666666666,
+                "text": "we just want the size of the list"
+            },
+            {
+                "probability": 0.16666666666666666,
+                "text": "or you can use it with the size of a list, for example 'list.size'"
+            },
+            {
+                "probability": 0.16666666666666666,
+                "text": "remember, if you have a list or an array, it will the size or length will be 5 for example, but the indexing starts at 0, so you can only access the elements 0, 1, 2, 3, and 4; if you start to access an element 5, it doesn't exist, because then the list of the length, the length of the list would be 6"
+            },
+            {
+                "probability": 0.16666666666666666,
+                "text": "so if you want to have if you have a list and you want to create a list of unique elements of that list, you just turn it into a set and it will remove all the all the elements that are duplicated"
+            }
+        ]
+    },
+    "arraylists": {
+        "occurances": 6,
+        "sentences": [
+            {
+                "probability": 0.16666666666666666,
+                "text": "now if we look at arraylists arraylists you might also have talked about briefly in sd1"
+            },
+            {
+                "probability": 0.16666666666666666,
+                "text": "arraylists do almost the same as lists or arrays, but they do not have a predefined number of entries you can put in"
+            },
+            {
+                "probability": 0.16666666666666666,
+                "text": "there's an alternative way of initializing arraylists, like you still declare them like this with the [data] type of string down here, but in the initialisation you can omit the [data] type"
+            },
+            {
+                "probability": 0.16666666666666666,
+                "text": "so, so far on the two things that you should hopefully remember from [sd1], as i said, arraylists, i'm never entirely certain if you do this in sd1 or not, but you should remember arrays from sd one"
+            },
+            {
+                "probability": 0.16666666666666666,
+                "text": "they save a collection of objects like and you have varying implementations of of them, like arraylists, or linkedlists, or hashsets, or treesets"
+            }
+        ]
+    },
+    "size": {
+        "occurances": 6,
+        "sentences": [
+            {
+                "probability": 0.16666666666666666,
+                "text": "so you declare, like, an 'hours count' up here, you initialise the 'hours count' down here as a new array of integers with the size of 24, and then you can use it like this by just giving it an index, for example in a loop, setting it to an integer value and printing it like this as well"
+            },
+            {
+                "probability": 0.16666666666666666,
+                "text": "this is different to an array because in an array you use '.length', i said that a few minutes ago, without brackets that here you used '.size()' with the brackets, so you just have to remember that size here is a method, and not just a property or field of the of the arraylist"
+            },
+            {
+                "probability": 0.16666666666666666,
+                "text": "so this is called delegation, because what we could do is we could just return files itself, and then leave the user to do '.size' on it to get the size, but that's a bit complex"
+            },
+            {
+                "probability": 0.16666666666666666,
+                "text": "we just want the size of the list"
+            },
+            {
+                "probability": 0.16666666666666666,
+                "text": "or you can use it with the size of a list, for example 'list.size'"
+            },
+            {
+                "probability": 0.16666666666666666,
+                "text": "remember, if you have a list or an array, it will the size or length will be 5 for example, but the indexing starts at 0, so you can only access the elements 0, 1, 2, 3, and 4; if you start to access an element 5, it doesn't exist, because then the list of the length, the length of the list would be 6"
+            }
+        ]
+    },
+    "arrays": {
+        "occurances": 6,
+        "sentences": [
+            {
+                "probability": 0.16666666666666666,
+                "text": "in sd1, you had to look at arrays"
+            },
+            {
+                "probability": 0.16666666666666666,
+                "text": "arrays are fixed size collections, and there are two ways of creating them, so you declare them like this, and then you can either just give them a fixed assignment of numbers or after you declare them, you can initialize them like this where you call 'new int[]'"
+            },
+            {
+                "probability": 0.16666666666666666,
+                "text": "so [these are] arrays, you've used a lot of them in in sd1"
+            },
+            {
+                "probability": 0.16666666666666666,
+                "text": "so this is the standard use of arrays"
+            },
+            {
+                "probability": 0.16666666666666666,
+                "text": "arraylists do almost the same as lists or arrays, but they do not have a predefined number of entries you can put in"
+            },
+            {
+                "probability": 0.16666666666666666,
+                "text": "so, so far on the two things that you should hopefully remember from [sd1], as i said, arraylists, i'm never entirely certain if you do this in sd1 or not, but you should remember arrays from sd one"
+            }
+        ]
+    },
+    "course": {
+        "occurances": 6,
+        "sentences": [
+            {
+                "probability": 0.16666666666666666,
+                "text": "in this video we're going to talk about collections; you should have had a bit about collections in sd1 already, but today we're going to talk about them more because we will use them a lot in this course"
+            },
+            {
+                "probability": 0.16666666666666666,
+                "text": "and what i mean with this will hopefully become evident throughout the course of this video"
+            },
+            {
+                "probability": 0.16666666666666666,
+                "text": "let's start off with the libraries actually, because java provides thousands and thousands of classes that are ready to use for all kinds of different purposes, and we will have a look at a fraction of the most used ones in this course"
+            },
+            {
+                "probability": 0.16666666666666666,
+                "text": "and you will learn what that means throughout the course of this class"
+            },
+            {
+                "probability": 0.16666666666666666,
+                "text": "if you installed the latest java on your home computer, there will be java 14 or something, but java 8 is the latest version we rely on in this course, because it has all the basic java elements that you need to know in order to know java"
+            },
+            {
+                "probability": 0.16666666666666666,
+                "text": "the implementation normally is hidden, which is something called information hidi information hiding, which we will talk about later in this course"
+            }
+        ]
+    },
+    "print": {
+        "occurances": 5,
+        "sentences": [
+            {
+                "probability": 0.2,
+                "text": "the first argument is the key and the second argument is the value and you do this for everything and then if you want to get something out you can just use the 'get(...)' method with the key like 'lisa jones', and this returns then a string which is the phone number and then you can print the phone number and it will give you lisa jones' phone number"
+            },
+            {
+                "probability": 0.2,
+                "text": "now, if we print this using a for loop like, this is a for each loop by the way, \"for each string called element\" or \"for each string\" i would name element in my set i do something with the elements such as printing it"
+            },
+            {
+                "probability": 0.2,
+                "text": "if you print all of this, it will only print \"one two\""
+            },
+            {
+                "probability": 0.2,
+                "text": "so each element in a set has to be unique, and the order of the element is not guaranteed, so it might also print \"two one\""
+            }
+        ]
+    },
+    "parameter": {
+        "occurances": 5,
+        "sentences": [
+            {
+                "probability": 0.2,
+                "text": "so remember from the last video and mutator method has a parameter and this parameter is then used to change a variable inside our class here, files is changed by adding something"
+            },
+            {
+                "probability": 0.2,
+                "text": "so this is why 'nextint(\u2026)' with with this bound parameter is exclusive of this parameter just to be used like this, right"
+            },
+            {
+                "probability": 0.2,
+                "text": "otherwise you would always have to do 'list.size() 1', it's a bit cumbersome so they just said okay, let's make it exclusive of this parameter, so we can just use 'list.size'"
+            }
+        ]
+    },
+    "lists": {
+        "occurances": 5,
+        "sentences": [
+            {
+                "probability": 0.2,
+                "text": "arraylists do almost the same as lists or arrays, but they do not have a predefined number of entries you can put in"
+            },
+            {
+                "probability": 0.2,
+                "text": "it's not the add method like it was for lists, but 'put(\u2026)'"
+            },
+            {
+                "probability": 0.2,
+                "text": "sets only have one entry like lists, so here we have a set of strings"
+            },
+            {
+                "probability": 0.2,
+                "text": "so if you compare, or if you look at lists, maps and sets together, they are alternative ways to group objects, right"
+            },
+            {
+                "probability": 0.2,
+                "text": "you just use, you just use the 'add(...)' method, and the 'get(...)' method, and the 'size()' method and they do the same for all of these lists because they all are lists"
+            }
+        ]
+    },
+    "package": {
+        "occurances": 4,
+        "sentences": [
+            {
+                "probability": 0.25,
+                "text": "and there, you can see all the packages here and if you click on a package you get all the classes in that package and if you click on a class you can get the you can get the specifications here with this is actually the package as well, but if you click on the class you get all the methods of the class and so forth, and you get a good amount of documentation that describes each method of the class"
+            },
+            {
+                "probability": 0.25,
+                "text": "if you use this, and then you just use an arbitrary class from if you have this for java for 'java.util.*' and you have 'javax.swing.*' and you have several packages supported, then you're not entirely sure which package are certain class comes from when you use it"
+            }
+        ]
+    },
+    "packages": {
+        "occurances": 4,
+        "sentences": [
+            {
+                "probability": 0.25,
+                "text": "and there, you can see all the packages here and if you click on a package you get all the classes in that package and if you click on a class you can get the you can get the specifications here with this is actually the package as well, but if you click on the class you get all the methods of the class and so forth, and you get a good amount of documentation that describes each method of the class"
+            },
+            {
+                "probability": 0.25,
+                "text": "as i said, all these classes are organised into packages, so you need to know which package to import, and you do that by using the import statement, and you have to import everything except classes in the 'java.lang' package, such as string "
+            },
+            {
+                "probability": 0.25,
+                "text": "if you use this, and then you just use an arbitrary class from if you have this for java for 'java.util.*' and you have 'javax.swing.*' and you have several packages supported, then you're not entirely sure which package are certain class comes from when you use it"
+            },
+            {
+                "probability": 0.25,
+                "text": "there's several list classes, for example in several different packages, and it's hard to find out which one you mean if you don't import it like this, but you use this"
+            }
+        ]
+    },
+    "documentation": {
+        "occurances": 4,
+        "sentences": [
+            {
+                "probability": 0.25,
+                "text": "is you go to the online documentation so this is the documentation for java 8, which is the minimum version we rely on here"
+            },
+            {
+                "probability": 0.25,
+                "text": "and there, you can see all the packages here and if you click on a package you get all the classes in that package and if you click on a class you can get the you can get the specifications here with this is actually the package as well, but if you click on the class you get all the methods of the class and so forth, and you get a good amount of documentation that describes each method of the class"
+            },
+            {
+                "probability": 0.25,
+                "text": "so if we look at the documentation of random , you can see it has a lot of methods that start with 'next...'"
+            },
+            {
+                "probability": 0.25,
+                "text": "the documentation tells us everything about the library that we need to know"
+            }
+        ]
+    },
+    "talk": {
+        "occurances": 4,
+        "sentences": [
+            {
+                "probability": 0.25,
+                "text": "so let's talk a bit more about collections"
+            },
+            {
+                "probability": 0.25,
+                "text": "so let's talk a bit about a few things that you will need for the first coursework"
+            },
+            {
+                "probability": 0.25,
+                "text": "so let's talk a bit more about different types of collections"
+            },
+            {
+                "probability": 0.25,
+                "text": "let's talk a bit about maps and sets, especially hashmaps and hashsets in here"
+            }
+        ]
+    },
+    "diamond notation": {
+        "occurances": 4,
+        "sentences": [
+            {
+                "probability": 0.25,
+                "text": "this is the so called diamond notation, because these pointy brackets look a bit like a diamond when they're empty, because you declare the [data] type of every entry in files here, the [data] type here has to be the same, right"
+            },
+            {
+                "probability": 0.25,
+                "text": "this is a so called diamond notation, but you still have to put it here in the declaration"
+            },
+            {
+                "probability": 0.25,
+                "text": "you create a hashmap with a diamond notation again"
+            },
+            {
+                "probability": 0.25,
+                "text": "again, you could just leave these two out, use the diamond notation, but *these* two are mandatory"
+            }
+        ]
+    },
+    "eclipse": {
+        "occurances": 4,
+        "sentences": [
+            {
+                "probability": 0.25,
+                "text": "so you have to import this in here and then you can use this if in eclipse for example, you just start declaring a variable of type arraylist, it will give you an error that it doesn't know what it is"
+            },
+            {
+                "probability": 0.25,
+                "text": "so if you look at eclipse for example at auto importing things, you could see all this package structure like 'org.eclipse.swt', wherever there's a dot, that means is a sub directory"
+            },
+            {
+                "probability": 0.25,
+                "text": "so org is the top level directory that has a subdirectory eclipse has a subdirectory called swt , and so forth"
+            },
+            {
+                "probability": 0.25,
+                "text": "if ever your eclipse compares about not knowing string and not knowing 'java.lang', that might mean that something is wrong with your build path; and then i would suggest that you are using an older version of java then the one this project was created with"
+            }
+        ]
+    },
+    "variable": {
+        "occurances": 4,
+        "sentences": [
+            {
+                "probability": 0.25,
+                "text": "so here we declare our field and then in the constructor, down here we initialise, or instantiate our our files variable by calling 'new arraylist...' and again with the type ' string '"
+            },
+            {
+                "probability": 0.25,
+                "text": "so you have to import this in here and then you can use this if in eclipse for example, you just start declaring a variable of type arraylist, it will give you an error that it doesn't know what it is"
+            },
+            {
+                "probability": 0.25,
+                "text": "so we have our musicorganizer here and our variable called files which is of type 'arraylist string ' and in 'arraylist string ' we can now add elements"
+            },
+            {
+                "probability": 0.25,
+                "text": "so remember from the last video and mutator method has a parameter and this parameter is then used to change a variable inside our class here, files is changed by adding something"
+            }
+        ]
+    },
+    "collection": {
+        "occurances": 4,
+        "sentences": [
+            {
+                "probability": 0.25,
+                "text": "if you have an arraylist then the number is undefined and it's just decided at runtime and this is a collection that is predefined for you in the class the java class library"
+            },
+            {
+                "probability": 0.25,
+                "text": "this is the object structure with this collection"
+            },
+            {
+                "probability": 0.25,
+                "text": "they save a collection of objects like and you have varying implementations of of them, like arraylists, or linkedlists, or hashsets, or treesets"
+            },
+            {
+                "probability": 0.25,
+                "text": "where if you look at hashmap and hashsets, they're unrelated to each other, despite their name being similar, so the second word in this collection is what reveals the actual function or the organisational relatedness, like map or set or list "
+            }
+        ]
+    },
+    "entries": {
+        "occurances": 4,
+        "sentences": [
+            {
+                "probability": 0.25,
+                "text": "arraylists do almost the same as lists or arrays, but they do not have a predefined number of entries you can put in"
+            },
+            {
+                "probability": 0.25,
+                "text": "like if you look at this the number of entries is 24 right"
+            },
+            {
+                "probability": 0.25,
+                "text": "and then if you want to get, for example, the number of entries, you use files.size()"
+            },
+            {
+                "probability": 0.25,
+                "text": "you have to declare the type of the entries"
+            }
+        ]
+    },
+    "loop": {
+        "occurances": 4,
+        "sentences": [
+            {
+                "probability": 0.25,
+                "text": "so you declare, like, an 'hours count' up here, you initialise the 'hours count' down here as a new array of integers with the size of 24, and then you can use it like this by just giving it an index, for example in a loop, setting it to an integer value and printing it like this as well"
+            },
+            {
+                "probability": 0.25,
+                "text": "now, if we print this using a for loop like, this is a for each loop by the way, \"for each string called element\" or \"for each string\" i would name element in my set i do something with the elements such as printing it"
+            },
+            {
+                "probability": 0.25,
+                "text": "but you can do that with a \"for int...\" loop that counts as well, it doesn't matter"
+            }
+        ]
+    },
+    "length": {
+        "occurances": 4,
+        "sentences": [
+            {
+                "probability": 0.25,
+                "text": "with the brackets, then you can also do a semicolon, and do the assignment afterwards, or you also give them, like, a fixed number of assignment, and you can get the length of this array by using 'numbers.length'"
+            },
+            {
+                "probability": 0.25,
+                "text": "remember, if you have a list or an array, it will the size or length will be 5 for example, but the indexing starts at 0, so you can only access the elements 0, 1, 2, 3, and 4; if you start to access an element 5, it doesn't exist, because then the list of the length, the length of the list would be 6"
+            }
+        ]
+    },
+    "brackets": {
+        "occurances": 4,
+        "sentences": [
+            {
+                "probability": 0.25,
+                "text": "with the brackets, then you can also do a semicolon, and do the assignment afterwards, or you also give them, like, a fixed number of assignment, and you can get the length of this array by using 'numbers.length'"
+            },
+            {
+                "probability": 0.25,
+                "text": "this is different to an array because in an array you use '.length', i said that a few minutes ago, without brackets that here you used '.size()' with the brackets, so you just have to remember that size here is a method, and not just a property or field of the of the arraylist"
+            },
+            {
+                "probability": 0.25,
+                "text": "so the name should be a string and the phone number should be a string because it might contain like brackets or pluses and so forth; and then the name, and then you initialise it like this"
+            }
+        ]
+    },
+    "video": {
+        "occurances": 4,
+        "sentences": [
+            {
+                "probability": 0.25,
+                "text": "in this video we're going to talk about collections; you should have had a bit about collections in sd1 already, but today we're going to talk about them more because we will use them a lot in this course"
+            },
+            {
+                "probability": 0.25,
+                "text": "and what i mean with this will hopefully become evident throughout the course of this video"
+            },
+            {
+                "probability": 0.25,
+                "text": "so remember from the last video and mutator method has a parameter and this parameter is then used to change a variable inside our class here, files is changed by adding something"
+            },
+            {
+                "probability": 0.25,
+                "text": "that's a happy seal of approval for you having made it through this video"
+            }
+        ]
+    },
+    "week": {
+        "occurances": 4,
+        "sentences": [
+            {
+                "probability": 0.25,
+                "text": "hello everyone to the second content video this week"
+            },
+            {
+                "probability": 0.25,
+                "text": "but also, in this instance i've been recording all the videos this week on the same day, so actually this is not me wearing the same thing for three consecutive days"
+            },
+            {
+                "probability": 0.25,
+                "text": "but so much for collections, and next week we will actually jump into classes and and all the fun object oriented stuff"
+            },
+            {
+                "probability": 0.25,
+                "text": "so yeah, see you next week"
+            }
+        ]
+    },
+    "information": {
+        "occurances": 3,
+        "sentences": [
+            {
+                "probability": 0.3333333333333333,
+                "text": "the implementation normally is hidden, which is something called information hidi information hiding, which we will talk about later in this course"
+            },
+            {
+                "probability": 0.3333333333333333,
+                "text": "so actually this information is hidden from you, like how it's actually stored in in your working memory because we don't care"
+            }
+        ]
+    },
+    "stored": {
+        "occurances": 3,
+        "sentences": [
+            {
+                "probability": 0.3333333333333333,
+                "text": "and the first word is just how it is stored internally, like if it's hashed or if it's linked, or if it's an array and so forth"
+            },
+            {
+                "probability": 0.3333333333333333,
+                "text": "but you don't need to know about how it's stored, right"
+            },
+            {
+                "probability": 0.3333333333333333,
+                "text": "so actually this information is hidden from you, like how it's actually stored in in your working memory because we don't care"
+            }
+        ]
+    },
+    "lisa jones'": {
+        "occurances": 3,
+        "sentences": [
+            {
+                "probability": 0.3333333333333333,
+                "text": "the first argument is the key and the second argument is the value and you do this for everything and then if you want to get something out you can just use the 'get(...)' method with the key like 'lisa jones', and this returns then a string which is the phone number and then you can print the phone number and it will give you lisa jones' phone number"
+            },
+            {
+                "probability": 0.3333333333333333,
+                "text": "so imagine you have two lisa jones' in there"
+            },
+            {
+                "probability": 0.3333333333333333,
+                "text": "lisa jones' is in there, so if you would put 'lisa jones' in here and then you have another, put a 'lisa jones' with a different phone number, it will just overwrite the old entry, so there will only ever be one lisa jones"
+            }
+        ]
+    },
+    "map": {
+        "occurances": 3,
+        "sentences": [
+            {
+                "probability": 0.3333333333333333,
+                "text": "that match a key that map a key to a value"
+            },
+            {
+                "probability": 0.3333333333333333,
+                "text": "for example in python or in c, it's also called a map, but it's the same thing"
+            },
+            {
+                "probability": 0.3333333333333333,
+                "text": "where if you look at hashmap and hashsets, they're unrelated to each other, despite their name being similar, so the second word in this collection is what reveals the actual function or the organisational relatedness, like map or set or list "
+            }
+        ]
+    },
+    "hashsets": {
+        "occurances": 3,
+        "sentences": [
+            {
+                "probability": 0.3333333333333333,
+                "text": "let's talk a bit about maps and sets, especially hashmaps and hashsets in here"
+            },
+            {
+                "probability": 0.3333333333333333,
+                "text": "they save a collection of objects like and you have varying implementations of of them, like arraylists, or linkedlists, or hashsets, or treesets"
+            },
+            {
+                "probability": 0.3333333333333333,
+                "text": "where if you look at hashmap and hashsets, they're unrelated to each other, despite their name being similar, so the second word in this collection is what reveals the actual function or the organisational relatedness, like map or set or list "
+            }
+        ]
+    },
+    "practice": {
+        "occurances": 3,
+        "sentences": [
+            {
+                "probability": 0.3333333333333333,
+                "text": "so how are they used in [practice] or in practice"
+            },
+            {
+                "probability": 0.3333333333333333,
+                "text": "and in practice, this works like this"
+            }
+        ]
+    },
+    "click": {
+        "occurances": 3,
+        "sentences": [
+            {
+                "probability": 0.3333333333333333,
+                "text": "and there, you can see all the packages here and if you click on a package you get all the classes in that package and if you click on a class you can get the you can get the specifications here with this is actually the package as well, but if you click on the class you get all the methods of the class and so forth, and you get a good amount of documentation that describes each method of the class"
+            }
+        ]
+    },
+    "internally": {
+        "occurances": 3,
+        "sentences": [
+            {
+                "probability": 0.3333333333333333,
+                "text": "and it's called 'getnumberoffiles()' with a speaking name, and then we just call 'files.size()' internally and return the integer which is called delegation as i wrote here"
+            },
+            {
+                "probability": 0.3333333333333333,
+                "text": "and the first word is just how it is stored internally, like if it's hashed or if it's linked, or if it's an array and so forth"
+            },
+            {
+                "probability": 0.3333333333333333,
+                "text": "so you have to comment those and internally it does all kinds of black magic to actually store the elements"
+            }
+        ]
+    },
+    "user": {
+        "occurances": 3,
+        "sentences": [
+            {
+                "probability": 0.3333333333333333,
+                "text": "so this is called delegation, because what we could do is we could just return files itself, and then leave the user to do '.size' on it to get the size, but that's a bit complex"
+            },
+            {
+                "probability": 0.3333333333333333,
+                "text": "i hope it makes a little sense now as well to just hide this from the user because the user don't care if it's an arraylist or an array, they just want an integer they don't want to call any methods to get that integer, if you call 'getnumberoffiles()', you want the number of files, you don't want the whole list, right"
+            }
+        ]
+    },
+    "field": {
+        "occurances": 3,
+        "sentences": [
+            {
+                "probability": 0.3333333333333333,
+                "text": "so if we want to use this, let's say we have a class called musicorganizer, and in there we use a field called arraylist"
+            },
+            {
+                "probability": 0.3333333333333333,
+                "text": "so here we declare our field and then in the constructor, down here we initialise, or instantiate our our files variable by calling 'new arraylist...' and again with the type ' string '"
+            },
+            {
+                "probability": 0.3333333333333333,
+                "text": "this is different to an array because in an array you use '.length', i said that a few minutes ago, without brackets that here you used '.size()' with the brackets, so you just have to remember that size here is a method, and not just a property or field of the of the arraylist"
+            }
+        ]
+    },
+    "assignment": {
+        "occurances": 3,
+        "sentences": [
+            {
+                "probability": 0.3333333333333333,
+                "text": "arrays are fixed size collections, and there are two ways of creating them, so you declare them like this, and then you can either just give them a fixed assignment of numbers or after you declare them, you can initialize them like this where you call 'new int[]'"
+            },
+            {
+                "probability": 0.3333333333333333,
+                "text": "with the brackets, then you can also do a semicolon, and do the assignment afterwards, or you also give them, like, a fixed number of assignment, and you can get the length of this array by using 'numbers.length'"
+            }
+        ]
+    },
+    "code": {
+        "occurances": 3,
+        "sentences": [
+            {
+                "probability": 0.3333333333333333,
+                "text": "and have a look at how to *not* write code yourself because, today is all about using things that java provides to make your life easier"
+            },
+            {
+                "probability": 0.3333333333333333,
+                "text": "this importation does not involve source code insertion"
+            },
+            {
+                "probability": 0.3333333333333333,
+                "text": "that's different to languages such as c, for example, but it's just interpreted as this [source code] being as this source code being accessible"
+            }
+        ]
+    },
+    "interface": {
+        "occurances": 2,
+        "sentences": [
+            {
+                "probability": 0.5,
+                "text": "so we need to document our classes so that the interface can be read on its own, because the interface is all people get right, the interface being the 'add(...) method and the 'get(...)' method, and the 'put(...)' method and so forth"
+            }
+        ]
+    },
+    "optimisation": {
+        "occurances": 2,
+        "sentences": [
+            {
+                "probability": 0.5,
+                "text": "they all have the same methods they all inherit from a common ancestor, so they all provide the same methods, they just store the elements differently for storage optimisation or retrieval optimisation, but you don't care when you use it"
+            }
+        ]
+    },
+    "storage": {
+        "occurances": 2,
+        "sentences": [
+            {
+                "probability": 0.5,
+                "text": "so you have to have a look at the second word to find out what it actually does in the first one is about retrieval and storage"
+            },
+            {
+                "probability": 0.5,
+                "text": "they all have the same methods they all inherit from a common ancestor, so they all provide the same methods, they just store the elements differently for storage optimisation or retrieval optimisation, but you don't care when you use it"
+            }
+        ]
+    },
+    "retrieval": {
+        "occurances": 2,
+        "sentences": [
+            {
+                "probability": 0.5,
+                "text": "so you have to have a look at the second word to find out what it actually does in the first one is about retrieval and storage"
+            },
+            {
+                "probability": 0.5,
+                "text": "they all have the same methods they all inherit from a common ancestor, so they all provide the same methods, they just store the elements differently for storage optimisation or retrieval optimisation, but you don't care when you use it"
+            }
+        ]
+    },
+    "word": {
+        "occurances": 2,
+        "sentences": [
+            {
+                "probability": 0.5,
+                "text": "where if you look at hashmap and hashsets, they're unrelated to each other, despite their name being similar, so the second word in this collection is what reveals the actual function or the organisational relatedness, like map or set or list "
+            },
+            {
+                "probability": 0.5,
+                "text": "and the first word is just how it is stored internally, like if it's hashed or if it's linked, or if it's an array and so forth"
+            }
+        ]
+    },
+    "implementation": {
+        "occurances": 2,
+        "sentences": [
+            {
+                "probability": 0.5,
+                "text": "and actually, depending on the implementation of the set, it saved differently as well"
+            },
+            {
+                "probability": 0.5,
+                "text": "the implementation normally is hidden, which is something called information hidi information hiding, which we will talk about later in this course"
+            }
+        ]
+    },
+    "unordered": {
+        "occurances": 2,
+        "sentences": [
+            {
+                "probability": 0.5,
+                "text": "because the thing about sets is, if you think of mathematics, sets are unordered and unique"
+            },
+            {
+                "probability": 0.5,
+                "text": "if you have a look [at] this, it works the same way, but then it's saved differently, like i said, unordered and only unique elements"
+            }
+        ]
+    },
+    "initialised": {
+        "occurances": 2,
+        "sentences": [
+            {
+                "probability": 0.5,
+                "text": "which is initialised like this, and we add strings to it"
+            },
+            {
+                "probability": 0.5,
+                "text": "so, comparing this to an arraylist again, it's initialised like this and then you add files like this"
+            }
+        ]
+    },
+    "keys": {
+        "occurances": 2,
+        "sentences": [
+            {
+                "probability": 0.5,
+                "text": "so now, the one thing about maps is that in maps, keys have to be unique"
+            },
+            {
+                "probability": 0.5,
+                "text": "because keys are used to look things up"
+            }
+        ]
+    },
+    "argument": {
+        "occurances": 2,
+        "sentences": [
+            {
+                "probability": 0.5,
+                "text": "the first argument is the key and the second argument is the value and you do this for everything and then if you want to get something out you can just use the 'get(...)' method with the key like 'lisa jones', and this returns then a string which is the phone number and then you can print the phone number and it will give you lisa jones' phone number"
+            }
+        ]
+    },
+    "hashmap": {
+        "occurances": 2,
+        "sentences": [
+            {
+                "probability": 0.5,
+                "text": "you create a hashmap with a diamond notation again"
+            },
+            {
+                "probability": 0.5,
+                "text": "where if you look at hashmap and hashsets, they're unrelated to each other, despite their name being similar, so the second word in this collection is what reveals the actual function or the organisational relatedness, like map or set or list "
+            }
+        ]
+    },
+    "phone": {
+        "occurances": 2,
+        "sentences": [
+            {
+                "probability": 0.5,
+                "text": "as i said, [an] example would be a phone book"
+            },
+            {
+                "probability": 0.5,
+                "text": "what phone number do you return, right"
+            }
+        ]
+    },
+    "values": {
+        "occurances": 2,
+        "sentences": [
+            {
+                "probability": 0.5,
+                "text": "maps are collections that contain pairs of values"
+            },
+            {
+                "probability": 0.5,
+                "text": "values can be whatever they like, but the key has to be unique because it's used to identify the value"
+            }
+        ]
+    },
+    "hashmaps": {
+        "occurances": 2,
+        "sentences": [
+            {
+                "probability": 0.5,
+                "text": "let's talk a bit about maps and sets, especially hashmaps and hashsets in here"
+            },
+            {
+                "probability": 0.5,
+                "text": "so you have to keep this in mind for hashmaps, or maps in general"
+            }
+        ]
+    },
+    "bound": {
+        "occurances": 2,
+        "sentences": [
+            {
+                "probability": 0.5,
+                "text": "but then we can also use 'nextint(...)' with an integer inside here and that is a bound int"
+            },
+            {
+                "probability": 0.5,
+                "text": "so this is why 'nextint(\u2026)' with with this bound parameter is exclusive of this parameter just to be used like this, right"
+            }
+        ]
+    },
+    "nextdouble": {
+        "occurances": 2,
+        "sentences": [
+            {
+                "probability": 0.5,
+                "text": "for example, 'nextboolean(), nextbytes(), nextdouble(), nextfloat(), ' 'nextgaussian(), nextint()', another 'nextint()', and 'nextlong()"
+            },
+            {
+                "probability": 0.5,
+                "text": "if we call nextdouble and will give us anything between zero (0.0) and one (1.0), inclusively"
+            }
+        ]
+    },
+    "objects": {
+        "occurances": 2,
+        "sentences": [
+            {
+                "probability": 0.5,
+                "text": "a few of these pre made objects, or collections, and the first of them is random , to generate random numbers"
+            },
+            {
+                "probability": 0.5,
+                "text": "they save a collection of objects like and you have varying implementations of of them, like arraylists, or linkedlists, or hashsets, or treesets"
+            }
+        ]
+    },
+    "languages": {
+        "occurances": 2,
+        "sentences": [
+            {
+                "probability": 0.5,
+                "text": "that's different to languages such as c, for example, but it's just interpreted as this [source code] being as this source code being accessible"
+            },
+            {
+                "probability": 0.5,
+                "text": "in other languages this is called a dictionary"
+            }
+        ]
+    },
+    "project": {
+        "occurances": 2,
+        "sentences": [
+            {
+                "probability": 0.5,
+                "text": "if ever your eclipse compares about not knowing string and not knowing 'java.lang', that might mean that something is wrong with your build path; and then i would suggest that you are using an older version of java then the one this project was created with"
+            },
+            {
+                "probability": 0.5,
+                "text": "once you import them, you can then use those classes and methods like [the same way as] classes from your current project, right"
+            }
+        ]
+    },
+    "version": {
+        "occurances": 2,
+        "sentences": [
+            {
+                "probability": 0.5,
+                "text": "is you go to the online documentation so this is the documentation for java 8, which is the minimum version we rely on here"
+            },
+            {
+                "probability": 0.5,
+                "text": "if you installed the latest java on your home computer, there will be java 14 or something, but java 8 is the latest version we rely on in this course, because it has all the basic java elements that you need to know in order to know java"
+            }
+        ]
+    },
+    "subdirectory": {
+        "occurances": 2,
+        "sentences": [
+            {
+                "probability": 0.5,
+                "text": "so org is the top level directory that has a subdirectory eclipse has a subdirectory called swt , and so forth"
+            }
+        ]
+    },
+    "libraries": {
+        "occurances": 2,
+        "sentences": [
+            {
+                "probability": 0.5,
+                "text": "let's start off with the libraries actually, because java provides thousands and thousands of classes that are ready to use for all kinds of different purposes, and we will have a look at a fraction of the most used ones in this course"
+            },
+            {
+                "probability": 0.5,
+                "text": "so just to summarise, java has an extensive class library, and as a good programmer you must be familiar with these libraries like, at least the most common ones"
+            }
+        ]
+    },
+    "delegation": {
+        "occurances": 2,
+        "sentences": [
+            {
+                "probability": 0.5,
+                "text": "so this is called delegation, because what we could do is we could just return files itself, and then leave the user to do '.size' on it to get the size, but that's a bit complex"
+            },
+            {
+                "probability": 0.5,
+                "text": "and it's called 'getnumberoffiles()' with a speaking name, and then we just call 'files.size()' internally and return the integer which is called delegation as i wrote here"
+            }
+        ]
+    },
+    "mutator method": {
+        "occurances": 2,
+        "sentences": [
+            {
+                "probability": 0.5,
+                "text": "and we do this in a mutator method"
+            },
+            {
+                "probability": 0.5,
+                "text": "so remember from the last video and mutator method has a parameter and this parameter is then used to change a variable inside our class here, files is changed by adding something"
+            }
+        ]
+    },
+    "alternative": {
+        "occurances": 2,
+        "sentences": [
+            {
+                "probability": 0.5,
+                "text": "there's an alternative way of initializing arraylists, like you still declare them like this with the [data] type of string down here, but in the initialisation you can omit the [data] type"
+            },
+            {
+                "probability": 0.5,
+                "text": "so if you compare, or if you look at lists, maps and sets together, they are alternative ways to group objects, right"
+            }
+        ]
+    },
+    "initialise": {
+        "occurances": 2,
+        "sentences": [
+            {
+                "probability": 0.5,
+                "text": "so here we declare our field and then in the constructor, down here we initialise, or instantiate our our files variable by calling 'new arraylist...' and again with the type ' string '"
+            },
+            {
+                "probability": 0.5,
+                "text": "you declare and initialise them like this"
+            }
+        ]
+    },
+    "pointy brackets": {
+        "occurances": 2,
+        "sentences": [
+            {
+                "probability": 0.5,
+                "text": "an arraylist should hold something of type string , which is what we put between these pointy brackets and the name of our arraylist is files "
+            },
+            {
+                "probability": 0.5,
+                "text": "this is the so called diamond notation, because these pointy brackets look a bit like a diamond when they're empty, because you declare the [data] type of every entry in files here, the [data] type here has to be the same, right"
+            }
+        ]
+    },
+    "musicorganizer": {
+        "occurances": 2,
+        "sentences": [
+            {
+                "probability": 0.5,
+                "text": "so if we want to use this, let's say we have a class called musicorganizer, and in there we use a field called arraylist"
+            },
+            {
+                "probability": 0.5,
+                "text": "so we have our musicorganizer here and our variable called files which is of type 'arraylist string ' and in 'arraylist string ' we can now add elements"
+            }
+        ]
+    },
+    "empty": {
+        "occurances": 2,
+        "sentences": [
+            {
+                "probability": 0.5,
+                "text": "you can put less but then you will still have you would still have empty elements in there to sum up to 24 and you can't put more than 24 elements in there"
+            },
+            {
+                "probability": 0.5,
+                "text": "this is the so called diamond notation, because these pointy brackets look a bit like a diamond when they're empty, because you declare the [data] type of every entry in files here, the [data] type here has to be the same, right"
+            }
+        ]
+    },
+    "printing": {
+        "occurances": 2,
+        "sentences": [
+            {
+                "probability": 0.5,
+                "text": "so you declare, like, an 'hours count' up here, you initialise the 'hours count' down here as a new array of integers with the size of 24, and then you can use it like this by just giving it an index, for example in a loop, setting it to an integer value and printing it like this as well"
+            },
+            {
+                "probability": 0.5,
+                "text": "now, if we print this using a for loop like, this is a for each loop by the way, \"for each string called element\" or \"for each string\" i would name element in my set i do something with the elements such as printing it"
+            }
+        ]
+    },
+    "property": {
+        "occurances": 2,
+        "sentences": [
+            {
+                "probability": 0.5,
+                "text": "it's important to note that there are no brackets [at] the end, because this is just a field of the array, or property of the array, that you are accessing there, it's not a method"
+            },
+            {
+                "probability": 0.5,
+                "text": "this is different to an array because in an array you use '.length', i said that a few minutes ago, without brackets that here you used '.size()' with the brackets, so you just have to remember that size here is a method, and not just a property or field of the of the arraylist"
+            }
+        ]
+    },
+    "your life": {
+        "occurances": 2,
+        "sentences": [
+            {
+                "probability": 0.5,
+                "text": "and have a look at how to *not* write code yourself because, today is all about using things that java provides to make your life easier"
+            },
+            {
+                "probability": 0.5,
+                "text": "and amongst these are many useful classes that make your life easier"
+            }
+        ]
+    },
+    "videos": {
+        "occurances": 2,
+        "sentences": [
+            {
+                "probability": 0.5,
+                "text": "but also, in this instance i've been recording all the videos this week on the same day, so actually this is not me wearing the same thing for three consecutive days"
+            },
+            {
+                "probability": 0.5,
+                "text": "so have a look at the 'common problems' videos in on vision [now canvas]"
+            }
+        ]
+    },
+    "day": {
+        "occurances": 2,
+        "sentences": [
+            {
+                "probability": 0.5,
+                "text": "and just in case you were wondering if i'm wearing the same clothes all day, yes, because it's lockdown and who cares"
+            },
+            {
+                "probability": 0.5,
+                "text": "but also, in this instance i've been recording all the videos this week on the same day, so actually this is not me wearing the same thing for three consecutive days"
+            }
+        ]
+    },
+    "wearing": {
+        "occurances": 2,
+        "sentences": [
+            {
+                "probability": 0.5,
+                "text": "and just in case you were wondering if i'm wearing the same clothes all day, yes, because it's lockdown and who cares"
+            },
+            {
+                "probability": 0.5,
+                "text": "but also, in this instance i've been recording all the videos this week on the same day, so actually this is not me wearing the same thing for three consecutive days"
+            }
+        ]
+    },
+    "content": {
+        "occurances": 2,
+        "sentences": [
+            {
+                "probability": 0.5,
+                "text": "hello everyone to the second content video this week"
+            },
+            {
+                "probability": 0.5,
+                "text": "anyway, i'm sure you were dying to know, but let's get right into the content"
+            }
+        ]
+    },
+    "ba2005@hw.ac.uk": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "[captions by ben agnew, ba2005@hw.ac.uk]"
+            }
+        ]
+    },
+    "ben agnew": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "[captions by ben agnew, ba2005@hw.ac.uk]"
+            }
+        ]
+    },
+    "captions": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "[captions by ben agnew, ba2005@hw.ac.uk]"
+            }
+        ]
+    },
+    "bye bye": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "bye bye"
+            }
+        ]
+    },
+    "fun object": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "but so much for collections, and next week we will actually jump into classes and and all the fun object oriented stuff"
+            }
+        ]
+    },
+    "jump": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "but so much for collections, and next week we will actually jump into classes and and all the fun object oriented stuff"
+            }
+        ]
+    },
+    "discussion board": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "again, if you have any questions, please join the live sessions or write on the discussion board"
+            }
+        ]
+    },
+    "sessions": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "again, if you have any questions, please join the live sessions or write on the discussion board"
+            }
+        ]
+    },
+    "live": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "again, if you have any questions, please join the live sessions or write on the discussion board"
+            }
+        ]
+    },
+    "questions": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "again, if you have any questions, please join the live sessions or write on the discussion board"
+            }
+        ]
+    },
+    "attention": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "so thank you very much for paying attention"
+            }
+        ]
+    },
+    "approval": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "that's a happy seal of approval for you having made it through this video"
+            }
+        ]
+    },
+    "seal": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "that's a happy seal of approval for you having made it through this video"
+            }
+        ]
+    },
+    "happy": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "that's a happy seal of approval for you having made it through this video"
+            }
+        ]
+    },
+    "black magic": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "so you have to comment those and internally it does all kinds of black magic to actually store the elements"
+            }
+        ]
+    },
+    "comment": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "so you have to comment those and internally it does all kinds of black magic to actually store the elements"
+            }
+        ]
+    },
+    "people": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "so we need to document our classes so that the interface can be read on its own, because the interface is all people get right, the interface being the 'add(...) method and the 'get(...)' method, and the 'put(...)' method and so forth"
+            }
+        ]
+    },
+    "document": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "so we need to document our classes so that the interface can be read on its own, because the interface is all people get right, the interface being the 'add(...) method and the 'get(...)' method, and the 'put(...)' method and so forth"
+            }
+        ]
+    },
+    "working memory": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "so actually this information is hidden from you, like how it's actually stored in in your working memory because we don't care"
+            }
+        ]
+    },
+    "ancestor": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "they all have the same methods they all inherit from a common ancestor, so they all provide the same methods, they just store the elements differently for storage optimisation or retrieval optimisation, but you don't care when you use it"
+            }
+        ]
+    },
+    "'size": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "you just use, you just use the 'add(...)' method, and the 'get(...)' method, and the 'size()' method and they do the same for all of these lists because they all are lists"
+            }
+        ]
+    },
+    "use": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "you just use, you just use the 'add(...)' method, and the 'get(...)' method, and the 'size()' method and they do the same for all of these lists because they all are lists"
+            }
+        ]
+    },
+    "tree": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "if it's a hash or a tree, or linked or an array, do you care"
+            }
+        ]
+    },
+    "hash": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "if it's a hash or a tree, or linked or an array, do you care"
+            }
+        ]
+    },
+    "hidden": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "the implementation normally is hidden, which is something called information hidi information hiding, which we will talk about later in this course"
+            }
+        ]
+    },
+    "library": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "the documentation tells us everything about the library that we need to know"
+            }
+        ]
+    },
+    "programmer": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "so just to summarise, java has an extensive class library, and as a good programmer you must be familiar with these libraries like, at least the most common ones"
+            }
+        ]
+    },
+    "class library": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "so just to summarise, java has an extensive class library, and as a good programmer you must be familiar with these libraries like, at least the most common ones"
+            }
+        ]
+    },
+    "extensive": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "so just to summarise, java has an extensive class library, and as a good programmer you must be familiar with these libraries like, at least the most common ones"
+            }
+        ]
+    },
+    "value pair": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "as i said, sets hold sets do not hold duplicates, and maps always need a [unique] key and value pair"
+            }
+        ]
+    },
+    "duplicates": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "as i said, sets hold sets do not hold duplicates, and maps always need a [unique] key and value pair"
+            }
+        ]
+    },
+    "organisational relatedness": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "where if you look at hashmap and hashsets, they're unrelated to each other, despite their name being similar, so the second word in this collection is what reveals the actual function or the organisational relatedness, like map or set or list "
+            }
+        ]
+    },
+    "actual function": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "where if you look at hashmap and hashsets, they're unrelated to each other, despite their name being similar, so the second word in this collection is what reveals the actual function or the organisational relatedness, like map or set or list "
+            }
+        ]
+    },
+    "similar": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "where if you look at hashmap and hashsets, they're unrelated to each other, despite their name being similar, so the second word in this collection is what reveals the actual function or the organisational relatedness, like map or set or list "
+            }
+        ]
+    },
+    "unrelated": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "where if you look at hashmap and hashsets, they're unrelated to each other, despite their name being similar, so the second word in this collection is what reveals the actual function or the organisational relatedness, like map or set or list "
+            }
+        ]
+    },
+    "treesets": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "they save a collection of objects like and you have varying implementations of of them, like arraylists, or linkedlists, or hashsets, or treesets"
+            }
+        ]
+    },
+    "linkedlists": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "they save a collection of objects like and you have varying implementations of of them, like arraylists, or linkedlists, or hashsets, or treesets"
+            }
+        ]
+    },
+    "implementations": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "they save a collection of objects like and you have varying implementations of of them, like arraylists, or linkedlists, or hashsets, or treesets"
+            }
+        ]
+    },
+    "group objects": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "so if you compare, or if you look at lists, maps and sets together, they are alternative ways to group objects, right"
+            }
+        ]
+    },
+    "compare": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "so if you compare, or if you look at lists, maps and sets together, they are alternative ways to group objects, right"
+            }
+        ]
+    },
+    "slack": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "it is very similar sorry for the notification there, i should've terminated slack"
+            }
+        ]
+    },
+    "notification": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "it is very similar sorry for the notification there, i should've terminated slack"
+            }
+        ]
+    },
+    "comparing": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "so, comparing this to an arraylist again, it's initialised like this and then you add files like this"
+            }
+        ]
+    },
+    "duplicated": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "so if you want to have if you have a list and you want to create a list of unique elements of that list, you just turn it into a set and it will remove all the all the elements that are duplicated"
+            }
+        ]
+    },
+    "desires": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "you don't know it's a set, so it's saved in whatever order it desires"
+            }
+        ]
+    },
+    "mathematics": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "because the thing about sets is, if you think of mathematics, sets are unordered and unique"
+            }
+        ]
+    },
+    "counts": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "but you can do that with a \"for int...\" loop that counts as well, it doesn't matter"
+            }
+        ]
+    },
+    "strings": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "which is initialised like this, and we add strings to it"
+            }
+        ]
+    },
+    "'java.util' package": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "looking at sets, on the other hand, again in the 'java.util' package"
+            }
+        ]
+    },
+    "lisa jones": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "lisa jones' is in there, so if you would put 'lisa jones' in here and then you have another, put a 'lisa jones' with a different phone number, it will just overwrite the old entry, so there will only ever be one lisa jones"
+            }
+        ]
+    },
+    "old entry": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "lisa jones' is in there, so if you would put 'lisa jones' in here and then you have another, put a 'lisa jones' with a different phone number, it will just overwrite the old entry, so there will only ever be one lisa jones"
+            }
+        ]
+    },
+    "overwrite": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "lisa jones' is in there, so if you would put 'lisa jones' in here and then you have another, put a 'lisa jones' with a different phone number, it will just overwrite the old entry, so there will only ever be one lisa jones"
+            }
+        ]
+    },
+    "returns": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "the first argument is the key and the second argument is the value and you do this for everything and then if you want to get something out you can just use the 'get(...)' method with the key like 'lisa jones', and this returns then a string which is the phone number and then you can print the phone number and it will give you lisa jones' phone number"
+            }
+        ]
+    },
+    "everything": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "the first argument is the key and the second argument is the value and you do this for everything and then if you want to get something out you can just use the 'get(...)' method with the key like 'lisa jones', and this returns then a string which is the phone number and then you can print the phone number and it will give you lisa jones' phone number"
+            }
+        ]
+    },
+    "value": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "the first argument is the key and the second argument is the value and you do this for everything and then if you want to get something out you can just use the 'get(...)' method with the key like 'lisa jones', and this returns then a string which is the phone number and then you can print the phone number and it will give you lisa jones' phone number"
+            }
+        ]
+    },
+    "dictionary": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "now, you can put things into your dictionary your map by using the 'put(...)' method"
+            }
+        ]
+    },
+    "pluses": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "so the name should be a string and the phone number should be a string because it might contain like brackets or pluses and so forth; and then the name, and then you initialise it like this"
+            }
+        ]
+    },
+    "smith'": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "smith', and so forth"
+            }
+        ]
+    },
+    "nguyen'": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "so your key would be 'charles nguyen' and then as a value you have the phone number"
+            }
+        ]
+    },
+    "python": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "for example in python or in c, it's also called a map, but it's the same thing"
+            }
+        ]
+    },
+    "telephone": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "so an example is a telephone book, right"
+            }
+        ]
+    },
+    "pairs": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "maps are collections that contain pairs of values"
+            }
+        ]
+    },
+    "list.size": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "otherwise you would always have to do 'list.size() 1', it's a bit cumbersome so they just said okay, let's make it exclusive of this parameter, so we can just use 'list.size'"
+            }
+        ]
+    },
+    "indexing": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "remember, if you have a list or an array, it will the size or length will be 5 for example, but the indexing starts at 0, so you can only access the elements 0, 1, 2, 3, and 4; if you start to access an element 5, it doesn't exist, because then the list of the length, the length of the list would be 6"
+            }
+        ]
+    },
+    "next slide": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "so that means it's exclusive of the five, so it will never give you 5; and the reason for this hopefully becomes clear on the next slide"
+            }
+        ]
+    },
+    "positive": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "and if we use 'nextint()' it will give us any integer any positive integer"
+            }
+        ]
+    },
+    "randomly": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "then we can call 'rand.nextboolean()' and that would give us either true or false, randomly, right"
+            }
+        ]
+    },
+    "false": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "then we can call 'rand.nextboolean()' and that would give us either true or false, randomly, right"
+            }
+        ]
+    },
+    "mean": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "and we will have a look at what all of these mean and what they're good for"
+            }
+        ]
+    },
+    "nextint": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "for example, 'nextboolean(), nextbytes(), nextdouble(), nextfloat(), ' 'nextgaussian(), nextint()', another 'nextint()', and 'nextlong()"
+            }
+        ]
+    },
+    "nextbytes": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "for example, 'nextboolean(), nextbytes(), nextdouble(), nextfloat(), ' 'nextgaussian(), nextint()', another 'nextint()', and 'nextlong()"
+            }
+        ]
+    },
+    "pre": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "a few of these pre made objects, or collections, and the first of them is random , to generate random numbers"
+            }
+        ]
+    },
+    "coursework": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "so let's talk a bit about a few things that you will need for the first coursework"
+            }
+        ]
+    },
+    "inserted": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "it's not actually inserted into the class"
+            }
+        ]
+    },
+    "source": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "that's different to languages such as c, for example, but it's just interpreted as this [source code] being as this source code being accessible"
+            }
+        ]
+    },
+    "importation": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "this importation does not involve source code insertion"
+            }
+        ]
+    },
+    "arbitrary": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "if you use this, and then you just use an arbitrary class from if you have this for java for 'java.util.*' and you have 'javax.swing.*' and you have several packages supported, then you're not entirely sure which package are certain class comes from when you use it"
+            }
+        ]
+    },
+    "readable": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "you might think \"why don't i always do this and then i can just use all of them?\" it's because, if you use the single class import in makes it a bit more readable, right"
+            }
+        ]
+    },
+    "single class": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "you might think \"why don't i always do this and then i can just use all of them?\" it's because, if you use the single class import in makes it a bit more readable, right"
+            }
+        ]
+    },
+    "asterisk": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "and you can do this by either importing a single class like arraylist from 'java.util', or you can import whole packages, meaning you can use all the classes within just using the asterisk (*) here"
+            }
+        ]
+    },
+    "no difference": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "so there's no, there's no difference"
+            }
+        ]
+    },
+    "left": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "in the 'additional resources' section on the left"
+            }
+        ]
+    },
+    "section": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "in the 'additional resources' section on the left"
+            }
+        ]
+    },
+    "resources'": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "in the 'additional resources' section on the left"
+            }
+        ]
+    },
+    "vision": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "so have a look at the 'common problems' videos in on vision [now canvas]"
+            }
+        ]
+    },
+    "older version": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "if ever your eclipse compares about not knowing string and not knowing 'java.lang', that might mean that something is wrong with your build path; and then i would suggest that you are using an older version of java then the one this project was created with"
+            }
+        ]
+    },
+    "path": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "if ever your eclipse compares about not knowing string and not knowing 'java.lang', that might mean that something is wrong with your build path; and then i would suggest that you are using an older version of java then the one this project was created with"
+            }
+        ]
+    },
+    "import everything": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "as i said, all these classes are organised into packages, so you need to know which package to import, and you do that by using the import statement, and you have to import everything except classes in the 'java.lang' package, such as string "
+            }
+        ]
+    },
+    "import statement": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "as i said, all these classes are organised into packages, so you need to know which package to import, and you do that by using the import statement, and you have to import everything except classes in the 'java.lang' package, such as string "
+            }
+        ]
+    },
+    "organised": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "as i said, all these classes are organised into packages, so you need to know which package to import, and you do that by using the import statement, and you have to import everything except classes in the 'java.lang' package, such as string "
+            }
+        ]
+    },
+    "lot of time": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "so it's a lot of reading, but once you know all your classes, it actually saves a lot of time"
+            }
+        ]
+    },
+    "reading": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "so it's a lot of reading, but once you know all your classes, it actually saves a lot of time"
+            }
+        ]
+    },
+    "specifications": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "and there, you can see all the packages here and if you click on a package you get all the classes in that package and if you click on a class you can get the you can get the specifications here with this is actually the package as well, but if you click on the class you get all the methods of the class and so forth, and you get a good amount of documentation that describes each method of the class"
+            }
+        ]
+    },
+    "java elements": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "if you installed the latest java on your home computer, there will be java 14 or something, but java 8 is the latest version we rely on in this course, because it has all the basic java elements that you need to know in order to know java"
+            }
+        ]
+    },
+    "something": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "if you installed the latest java on your home computer, there will be java 14 or something, but java 8 is the latest version we rely on in this course, because it has all the basic java elements that you need to know in order to know java"
+            }
+        ]
+    },
+    "home computer": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "if you installed the latest java on your home computer, there will be java 14 or something, but java 8 is the latest version we rely on in this course, because it has all the basic java elements that you need to know in order to know java"
+            }
+        ]
+    },
+    "minimum": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "is you go to the online documentation so this is the documentation for java 8, which is the minimum version we rely on here"
+            }
+        ]
+    },
+    "java 8": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "is you go to the online documentation so this is the documentation for java 8, which is the minimum version we rely on here"
+            }
+        ]
+    },
+    "online documentation": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "is you go to the online documentation so this is the documentation for java 8, which is the minimum version we rely on here"
+            }
+        ]
+    },
+    "organized": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "but they are all organized in this in this kind of way"
+            }
+        ]
+    },
+    "dragons": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "and all of these are, are classes i just saw for the first time that one of them is called dnd , i don't think there is anything to do with dungeons and dragons, even though if that [were true, that] would be awesome"
+            }
+        ]
+    },
+    "dungeons": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "and all of these are, are classes i just saw for the first time that one of them is called dnd , i don't think there is anything to do with dungeons and dragons, even though if that [were true, that] would be awesome"
+            }
+        ]
+    },
+    "dnd": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "and all of these are, are classes i just saw for the first time that one of them is called dnd , i don't think there is anything to do with dungeons and dragons, even though if that [were true, that] would be awesome"
+            }
+        ]
+    },
+    "swt": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "so org is the top level directory that has a subdirectory eclipse has a subdirectory called swt , and so forth"
+            }
+        ]
+    },
+    "dot": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "so if you look at eclipse for example at auto importing things, you could see all this package structure like 'org.eclipse.swt', wherever there's a dot, that means is a sub directory"
+            }
+        ]
+    },
+    "package structure": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "so if you look at eclipse for example at auto importing things, you could see all this package structure like 'org.eclipse.swt', wherever there's a dot, that means is a sub directory"
+            }
+        ]
+    },
+    "importing": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "so if you look at eclipse for example at auto importing things, you could see all this package structure like 'org.eclipse.swt', wherever there's a dot, that means is a sub directory"
+            }
+        ]
+    },
+    "inter": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "and all these library classes are often inter related"
+            }
+        ]
+    },
+    "library classes": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "and all these library classes are often inter related"
+            }
+        ]
+    },
+    "program": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "like you don't need to know how many elements you will have in your arraylist before at the creation of the arraylist, right, before the program starts"
+            }
+        ]
+    },
+    "creation": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "like you don't need to know how many elements you will have in your arraylist before at the creation of the arraylist, right, before the program starts"
+            }
+        ]
+    },
+    "fraction": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "let's start off with the libraries actually, because java provides thousands and thousands of classes that are ready to use for all kinds of different purposes, and we will have a look at a fraction of the most used ones in this course"
+            }
+        ]
+    },
+    "purposes": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "let's start off with the libraries actually, because java provides thousands and thousands of classes that are ready to use for all kinds of different purposes, and we will have a look at a fraction of the most used ones in this course"
+            }
+        ]
+    },
+    "java libraries": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "like other types of collections and a few practical examples, and a bit about the java libraries as well that they're in"
+            }
+        ]
+    },
+    "examples": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "like other types of collections and a few practical examples, and a bit about the java libraries as well that they're in"
+            }
+        ]
+    },
+    "cohesion": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "we will talk about this more when we come to coupling and cohesion and it will make more sense if we make a bit more sense"
+            }
+        ]
+    },
+    "coupling": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "we will talk about this more when we come to coupling and cohesion and it will make more sense if we make a bit more sense"
+            }
+        ]
+    },
+    "speaking": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "and it's called 'getnumberoffiles()' with a speaking name, and then we just call 'files.size()' internally and return the integer which is called delegation as i wrote here"
+            }
+        ]
+    },
+    "return files": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "so this is called delegation, because what we could do is we could just return files itself, and then leave the user to do '.size' on it to get the size, but that's a bit complex"
+            }
+        ]
+    },
+    "hides": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "and we do this in a accessor method where which we call get number of files, which basically just hides this, right"
+            }
+        ]
+    },
+    "accessor method": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "and we do this in a accessor method where which we call get number of files, which basically just hides this, right"
+            }
+        ]
+    },
+    "files.size": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "and then if you want to get, for example, the number of entries, you use files.size()"
+            }
+        ]
+    },
+    "atring": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "so you called files.add(...) with a atring and then this is added to the end of the list"
+            }
+        ]
+    },
+    "files.add": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "so you called files.add(...) with a atring and then this is added to the end of the list"
+            }
+        ]
+    },
+    "space": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "and in order to use this, again, we declare it, and we initialise it (i left this out for the sake of space), and adding a new file we do by calling files.add(...)"
+            }
+        ]
+    },
+    "object": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "this is the object structure with this collection"
+            }
+        ]
+    },
+    "declaration": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "this is a so called diamond notation, but you still have to put it here in the declaration"
+            }
+        ]
+    },
+    "reasons": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "if you would put an int in here it would break for several reasons, but i won't go into that"
+            }
+        ]
+    },
+    "entry": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "this is the so called diamond notation, because these pointy brackets look a bit like a diamond when they're empty, because you declare the [data] type of every entry in files here, the [data] type here has to be the same, right"
+            }
+        ]
+    },
+    "initialisation": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "there's an alternative way of initializing arraylists, like you still declare them like this with the [data] type of string down here, but in the initialisation you can omit the [data] type"
+            }
+        ]
+    },
+    "error": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "so you have to import this in here and then you can use this if in eclipse for example, you just start declaring a variable of type arraylist, it will give you an error that it doesn't know what it is"
+            }
+        ]
+    },
+    "type": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "so you have to import this in here and then you can use this if in eclipse for example, you just start declaring a variable of type arraylist, it will give you an error that it doesn't know what it is"
+            }
+        ]
+    },
+    "java util arraylist class": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "and all of this is defined in the java util arraylist class"
+            }
+        ]
+    },
+    "type ' string": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "so here we declare our field and then in the constructor, down here we initialise, or instantiate our our files variable by calling 'new arraylist...' and again with the type ' string '"
+            }
+        ]
+    },
+    "arraylist...'": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "so here we declare our field and then in the constructor, down here we initialise, or instantiate our our files variable by calling 'new arraylist...' and again with the type ' string '"
+            }
+        ]
+    },
+    "calling": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "so here we declare our field and then in the constructor, down here we initialise, or instantiate our our files variable by calling 'new arraylist...' and again with the type ' string '"
+            }
+        ]
+    },
+    "constructor": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "so here we declare our field and then in the constructor, down here we initialise, or instantiate our our files variable by calling 'new arraylist...' and again with the type ' string '"
+            }
+        ]
+    },
+    "java class library": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "if you have an arraylist then the number is undefined and it's just decided at runtime and this is a collection that is predefined for you in the class the java class library"
+            }
+        ]
+    },
+    "runtime": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "if you have an arraylist then the number is undefined and it's just decided at runtime and this is a collection that is predefined for you in the class the java class library"
+            }
+        ]
+    },
+    "undefined": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "if you have an arraylist then the number is undefined and it's just decided at runtime and this is a collection that is predefined for you in the class the java class library"
+            }
+        ]
+    },
+    "standard": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "so this is the standard use of arrays"
+            }
+        ]
+    },
+    "index": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "so you declare, like, an 'hours count' up here, you initialise the 'hours count' down here as a new array of integers with the size of 24, and then you can use it like this by just giving it an index, for example in a loop, setting it to an integer value and printing it like this as well"
+            }
+        ]
+    },
+    "no brackets": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "it's important to note that there are no brackets [at] the end, because this is just a field of the array, or property of the array, that you are accessing there, it's not a method"
+            }
+        ]
+    },
+    "numbers.length'": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "with the brackets, then you can also do a semicolon, and do the assignment afterwards, or you also give them, like, a fixed number of assignment, and you can get the length of this array by using 'numbers.length'"
+            }
+        ]
+    },
+    "semicolon": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "with the brackets, then you can also do a semicolon, and do the assignment afterwards, or you also give them, like, a fixed number of assignment, and you can get the length of this array by using 'numbers.length'"
+            }
+        ]
+    },
+    "numbers": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "arrays are fixed size collections, and there are two ways of creating them, so you declare them like this, and then you can either just give them a fixed assignment of numbers or after you declare them, you can initialize them like this where you call 'new int[]'"
+            }
+        ]
+    },
+    "fixed size collections": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "arrays are fixed size collections, and there are two ways of creating them, so you declare them like this, and then you can either just give them a fixed assignment of numbers or after you declare them, you can initialize them like this where you call 'new int[]'"
+            }
+        ]
+    },
+    "dying": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "anyway, i'm sure you were dying to know, but let's get right into the content"
+            }
+        ]
+    },
+    "days": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "but also, in this instance i've been recording all the videos this week on the same day, so actually this is not me wearing the same thing for three consecutive days"
+            }
+        ]
+    },
+    "consecutive": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "but also, in this instance i've been recording all the videos this week on the same day, so actually this is not me wearing the same thing for three consecutive days"
+            }
+        ]
+    },
+    "cares": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "and just in case you were wondering if i'm wearing the same clothes all day, yes, because it's lockdown and who cares"
+            }
+        ]
+    },
+    "lockdown": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "and just in case you were wondering if i'm wearing the same clothes all day, yes, because it's lockdown and who cares"
+            }
+        ]
+    },
+    "yes": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "and just in case you were wondering if i'm wearing the same clothes all day, yes, because it's lockdown and who cares"
+            }
+        ]
+    },
+    "clothes": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "and just in case you were wondering if i'm wearing the same clothes all day, yes, because it's lockdown and who cares"
+            }
+        ]
+    },
+    "case": {
+        "occurances": 1,
+        "sentences": [
+            {
+                "probability": 1.0,
+                "text": "and just in case you were wondering if i'm wearing the same clothes all day, yes, because it's lockdown and who cares"
+            }
+        ]
+    }
+}

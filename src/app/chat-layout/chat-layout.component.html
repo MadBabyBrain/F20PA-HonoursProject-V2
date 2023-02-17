@@ -1,0 +1,19 @@
+<div style="display: grid; grid-template-columns: repeat(5, 1fr); grid-template-rows: repeat(5, 10vh);">
+    <div id="msg-list" style="grid-row: 1/5; grid-column: 1/6; overflow-y: scroll; overflow-x: hidden;">
+        <ul *ngFor="let msg of messages">
+            <li>
+                <div style="display: flex; flex-direction: row;">
+                    {{msg.reply}}
+                    <div>
+                        <button (click)="goodReview(msg.topic, msg.reply)">Good</button>
+                        <button (click)="badReview(msg.topic, msg.reply)">Bad</button>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <textarea id="input" style="grid-row: 5/6; grid-column: 1/5;">
+
+    </textarea>
+    <button style="grid-row: 5/6; grid-column: 5/6;" (click)="submit()"> Submit </button>
+</div>
