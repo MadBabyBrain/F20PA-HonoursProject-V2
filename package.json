@@ -8,7 +8,8 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "server-build": "tsc -p ./server && node ./server/build/index.js",
-    "start": "npm run server-build && npm run client-start"
+    "start": "npm run server-build && npm run client-start",
+    "start-rasa": "npm run --prefix Server/Rasa start:server && npm run --prefix Server/Rasa start:actions"
   },
   "private": true,
   "dependencies": {

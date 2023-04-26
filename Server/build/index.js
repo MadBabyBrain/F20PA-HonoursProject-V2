@@ -17,5 +17,5 @@ app.use((0, cors_1.default)());
 app.use(express_1.default.static((0, path_1.resolve)("./dist/honours-project")));
 (0, app_1.routes)(app);
 (0, server_1.server)(io);
-const port_num = http.listen(process.env.PORT || 3000, () => { console.log(`listening on port ${3000}`); });
+const port_num = http.listen(process.env.PORT || 3001, () => { console.log(`listening on port ${3001}`); });
 app.listen(4000);

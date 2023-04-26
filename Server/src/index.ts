@@ -18,5 +18,5 @@ app.use(express.static(resolve("./dist/honours-project")))
 routes(app)
 server(io)
 
-const port_num = http.listen(process.env.PORT || 3000, () => { console.log(`listening on port ${3000}`) })
+const port_num = http.listen(process.env.PORT || 3001, () => { console.log(`listening on port ${3001}`) })
 app.listen(4000)

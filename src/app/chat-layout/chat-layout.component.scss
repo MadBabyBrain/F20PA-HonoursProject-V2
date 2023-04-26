@@ -1,0 +1,31 @@
+.left {
+    position: relative;
+    left: 5vw;
+    // right: 5vw;
+    margin-top: 5px;
+    padding: 5px;
+    width: fit-content;
+    text-align: left;
+    background-color: aqua;
+    border-radius: 10px 10px 10px 0px;
+    float: left;
+    // inline-size: 90vw;
+    max-width: 80vw;
+    overflow-wrap: break-word;
+}
+
+.right {
+    // --size: fit-content;
+    position: relative;
+    // left: auto;
+    right: 5vw;
+    margin-top: 5px;
+    padding: 5px;
+    width: fit-content;
+    text-align: right;
+    background-color: aqua;
+    border-radius: 10px 10px 0px 10px;
+    float: right;
+    max-width: 80vw;
+    overflow-wrap: break-word;
+}

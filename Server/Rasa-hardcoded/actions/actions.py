@@ -47,11 +47,12 @@ class ActionAskQuestion(Action):
             if e['entity'] == 'question':
                 name = e['value']
 
-            # message = jFile[name]['sentences'][0]['text']
+            if name not in jFile:
+                return
 
             message = jFile[name]
 
-            dispatcher.utter_message(text=message)
+            dispatcher.utter_message(text=name + ":=:" + message)
 
             print(message)
 
